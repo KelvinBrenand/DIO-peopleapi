@@ -36,5 +36,5 @@ public class PersonDTO {
     @Valid
     @NotNull
     @Size(min = 1)
-    private List<Phone> phones;
+    private List<PhoneDTO> phones;
 }
