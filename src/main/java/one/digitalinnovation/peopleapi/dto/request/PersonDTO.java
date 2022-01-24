@@ -31,7 +31,8 @@ public class PersonDTO {
     @Size(min = 11, max = 11)
     private String cpf;
 
-    private String birthdate;
+    private String birthDate;
+
     @Valid
     @NotNull
     @Size(min = 1)
